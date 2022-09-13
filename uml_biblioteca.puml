@@ -1,0 +1,35 @@
+@startuml
+
+left to right direction
+
+class cliente{
+nombre: str
+edad: int
+Pedir()
+Devolver()
+Ver()
+}
+
+class bibliotecario{
+nombre: str
+edad: int
+Ingresar_libros()
+Registrar_libros()
+Mostrar()
+}
+
+class libro{
+nombre: str
+}
+
+class biblioteca{
+libros_nombre: libro
+Agregado(nombre: str)
+Perdido(nombre: str)
+}
+
+cliente "*" --*  "1" libro
+libro "*" --*  "1" bibliotecario
+bibliotecario "1" --* "1" biblioteca
+
+@enduml
