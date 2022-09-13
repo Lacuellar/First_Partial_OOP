@@ -1,1 +1,17 @@
-# First_Partial_OOP
+Descripción
+
+
+Meta
+
+
+Consideraciones
+
+
+
+
+UML Diagrama
+
+
+
+
+Codigo de Python
