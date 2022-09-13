@@ -1,5 +1,4 @@
 @startuml
-
 left to right direction
 
 class cliente{
@@ -29,7 +28,6 @@ Perdido(nombre: str)
 }
 
 cliente "*" --*  "1" libro
-libro "*" --*  "1" bibliotecario
+cliente "*" --*  "1" bibliotecario
 bibliotecario "1" --* "1" biblioteca
-
 @enduml
